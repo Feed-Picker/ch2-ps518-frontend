@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-layanan {
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.form-wrapper {
+  background-color: #d9d9d9;
+}
+
+.form-control {
+  border: 1px solid rgb(141 120 74);
+}
+
+.button-konfirmasi {
+  background-color: #d9d9d9;
+  padding: 10px 80px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-cari {
+  background-color: #d9d9d9;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.button-filter {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 36px;
+  padding: 8px 23px;
+  font-weight: 600;
+}
+
+.card-ruanglayanan {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: none;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.content {
+  display: none;
+  margin-top: 20px;
+}
+
+.content.active {
+  display: block;
+}
